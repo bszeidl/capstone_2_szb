@@ -7,17 +7,13 @@
 }
 
 .hero-image {
-    background-image: url("/images/hero_breast_2.png");
+    /*background-image: url("/images/hero_breast_2.png");*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height: 40vh;
+    /*height: 30vh;*/
     width: 100vw;
 }
 
 
-.hero-photo {
-    
-    width: 100vw;
-}
