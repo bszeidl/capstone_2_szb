@@ -1,0 +1,107 @@
+/*smart phones*/
+@media  screen and (min-width: 568px) {
+    .main-page {
+        grid-template-columns: 3fr 3fr;
+    }
+
+    .hero-image {
+        background-image: url(/images/hero_breast_2.png);
+        height: 80vh;
+    }
+    
+    .benefit-photo {
+        height: 80vh;
+        width: auto;
+    }
+    
+    .specification-photo {
+        height: 80vh;
+        width: auto;
+    }
+
+    video {
+        height: 65vh;
+        width: auto;
+    }
+    
+    .recommendation-image {
+        height: 70vh;
+        width: 100%;
+    } 
+
+}
+
+@media screen and (min-width: 667px) {    
+    body {
+        font-size: 1.2rem;
+    }
+
+    .main-title {
+        font-size: 1.4em;
+    }
+
+}
+
+@media screen and (min-width: 736px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    .main-title {
+        font-size: 1.6em;
+    }
+}
+
+
+/*iPad media query*/
+@media  screen and (min-width: 768px) {
+
+    .main-title {
+        font-size: 4rem;
+    }
+    
+    .menu-cont {
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+    }
+
+
+    .line1, .line2, .line3 {		
+        position: relative;    
+        width: 55px;
+        height: 5px;
+        margin: 4px 0;
+    }
+
+    .menu-logo-line {
+        grid-template-columns: 100px calc(98vw - 200px) 100px;
+    }
+
+    .menu-titles {
+        font-size: 2rem;
+        top: 110px;
+    }
+
+    #menu_checkbox:checked + label .line1 {
+        top: 7x;
+        transform-origin: 50.5% 50%;
+    }
+
+    #menu_checkbox:checked + label .line3 {
+        bottom: 7px;
+        transform-origin: 45.5% 50%;
+    }
+
+    .benefits, .specifications, .presentation, .recommendation, .footer {
+        font-size: 2rem;
+    }
+
+    ul {
+        padding: 20px;
+    }
+    
+    /*img {
+        max-height: 80vh;
+    }*/
+}

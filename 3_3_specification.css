@@ -1,0 +1,18 @@
+.specifications {
+    grid-area: specifications;
+    padding: var(--text-padding);
+}
+
+.specification-img{
+    grid-area: specification-img;
+    /*border: 1px black solid;*/
+    justify-self: right;
+}
+
+
+.specification-photo {
+    /*height: 89vh;*/
+    width: 130px;
+    padding: var(--text-padding);
+}
+

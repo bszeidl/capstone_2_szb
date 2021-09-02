@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*variables*/
+:root {
+    --main-dark-color: rgba(0, 150, 190, 1);
+    /*--main-light-color: rgba(230, 240, 100, 1);*/
+    --main-light-color: #00ff00;
+    --hover-color: rgba(230, 240, 100, 1);
+    --secondary-color: #c0c0c0;
+    --secondary-font-size: 15px;
+    --text-padding: 15px;
+    --photo-padding: 5px;
+}
+
+body {
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    font-family: 'Rokkitt', serif;
+}
+
+h1 {
+    font-family: 'Nova Square', cursive;
+    color: var( --main-light-color);
+    font-weight: 900;
+}
+
+
+ul {
+    padding: var(--text-padding);
+    list-style-type: circle;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+}
+
+
+
+
+
+
+

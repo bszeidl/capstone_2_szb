@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+
+    <!---fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rokkitt&display=swap" rel="stylesheet">
+    
+    <!--CSS files link-->
+    <link rel="stylesheet" href="1_base_style.css">    
+    <link rel="stylesheet" href="2_1_navigation.css">
+    <link rel="stylesheet" href="2_2_menu_icon.css">
+    <link rel="stylesheet" href="2_3_logo.css">
+    <link rel="stylesheet" href="3_0_main_page.css">
+    <link rel="stylesheet" href="3_1_hero.css">
+    <link rel="stylesheet" href="3_2_benefit.css">
+    <link rel="stylesheet" href="3_3_specification.css">
+    <link rel="stylesheet" href="3_4_presentation.css">
+    <link rel="stylesheet" href="4_footer.css">
+    <link rel="stylesheet" href="5_back_to_top_link.css">
+    <link rel="stylesheet" href="6_media_queries.css">
+    
+</head>
+<body>
+    <div id="root"></div>
+    <div class="grid-container">
+        
+        <header id="top" class="navbar topnav"> <!--Navbar contains menu icon, main title, logo img, menu titles-->
+            <div class="menu-logo-line"> <!--menu-logo-lin contains only menu icon, main title, logo img and position fixed-->
+                
+                <div class="menu-icon-container">
+                   
+                        <input type="checkbox" id="menu_checkbox" onclick="myFunction()"><!--The menu icon animation is provided by input checkbox tag-->
+                                              
+                        <label for="menu_checkbox" class="menu-cont"> <!--Menu icon with circle borders and 3 lines-->
+                            <div class="menu line1"></div>
+                            <div class="menu line2"></div>
+                            <div class="menu line3"></div>
+                        </label>    
+                        
+                </div>
+                <h1 class="main-title">Farkas Lábgép</h1> <!--Main title-->
+                <div class="logo-container"></div> <!--Page logo-->
+            </div>
+            <div class="menu-titles-mover"></div>
+            
+            <div class="menu-titles" id="menu-links"> <!--Menu titles-->
+                <div class="menu menu-benefit"><a href="#benefit-id">Előnyök</a></div>
+                <div class="menu menu-specification"><a href="#specifications-id">Jellemzők</a></div>           
+                <div class="menu menu-workout"><a href="#recommendation-id">Gyakorlatok</a></div>
+                <div class="menu menu-contact"><a href="#contact-id">Kapcsolat</a></div>    
+            </div>
+        
+        </header>
+        
+        <!--Main page-->
+        <main class="main-page">
+
+            <!--Hero photos, introduction-->
+            <div class="intro-container">
+                <!--<img class="hero-photo" src="/images/Artboard 1.png" alt="hero-photo">-->
+                <div class="hero-image"></div>
+            </div>
+            
+            <!--Benefits and photos-->
+            <div class="benefits">
+                <h3 id="benefit-id">Előnyök</h3>
+                <ul >
+                    <li>Erőfejlesztés</li>
+                    <li>Technika fejlesztés</li>
+                    <li>Kontrollált terhelés</li>
+                </ul>
+            </div>            
+            <div class="benefit-img">
+                <img class="benefit-photo" src="images/fw_seated_leg_curling2.jpg" alt="benefit-photo">
+            </div>
+
+            <!--Specifications and photos-->
+            <div class="specifications">
+                <h3 id="specifications-id">Jellemzők</h3>
+                <ul>
+                    <li>Saját testtömeg használata az erőfejlesztéshez.</li>
+                    <li>Az erőfejlesztéssel egyidejűleg a technika, azaz a mozgáskoordináció is fejleszthető, a technikai hibákat szárazföldön ki lehet javítani.</li>
+                    
+                </ul>
+            </div>
+            <div class="specification-img">
+                <img class="specification-photo" src="images/8-Series-PVS.png" alt="spec-photo">
+            </div>
+
+            <!--Video embed-->
+            <div class="presentation">
+                <h3 id="recommendation-id">Ajánlott gyakorlatok, részletes bemutató video</h3>
+                <iframe src="https://www.youtube.com/embed/iqxF_s7p1IY" poster="/images/video_poster.jpg" controls preload="auto">
+                 Video               
+                </iframe>
+            </div>
+                
+    
+            <!--Back to top icon-->
+            <div class="back-to-top-wrapper"> <!--back to top arrow technology-->
+                <a href="#top" class="back-to-top-link tooltip" label="Scroll to Top"><span class="tooltiptext">Tetejére</span><img src="images/arrow_up.svg" alt="up-arrow"></a>
+            </div>
+        
+        </main>
+        
+        <!--footer-->
+        <div class="footer">
+            <div id="contact-id" class="contact">Kapcsolat:
+                <div>                
+                    <a href="mailto: fjuszas@gmail.com">✉ Email üzenet</a>
+                    <a href="🖀 +36 30 936 1899">🖀 +36 30 936 1899</a>
+                </div>
+            </div>
+            <div class="copyright">Copyright © 2021. Farkas János ev. minden jog fenntartva!</div>
+            <div class="gdpr"><a href="#">Adatvédelem</a></div>
+            <div class="cookies"><a href="#">Süti (cookie) szabályzat</a></div>
+            <div class="terms-and-conditions"><a href="#">Felhasználási feltételek</a></div>            
+        </div>
+    
+    </div>
+
+    <script>
+        function myFunction() {
+            const x = document.querySelector(".menu-titles");            
+            if (x.style.display === "grid") {
+            x.style.cssText = `
+            display: none;
+            `;
+            
+            } else {
+             x.style.cssText = `
+             display: grid;
+             `;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.presentation {
+    grid-area: presentation;
+    /*border: 1px black solid;*/
+    /*padding: var(--text-padding);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentation h3 {
+    padding: var(--text-padding);
+    text-align: center;
+}
+
+
+video {
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+/*video[poster] {
+    height: 70vh;
+}*/
+
