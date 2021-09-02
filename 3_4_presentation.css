@@ -20,6 +20,11 @@ video {
     /*border: 1px solid black;*/
 }
 
+iframe {
+    height: 80vh;
+    width: 100vw;
+}
+
 /*video[poster] {
     height: 70vh;
 }*/
