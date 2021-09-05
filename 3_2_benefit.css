@@ -1,8 +1,15 @@
 .benefits {
     grid-area: benefits;
     padding: var(--text-padding);
-    /*display: flex;
-    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px black solid;*/
+}
+
+.benefits h3 {
+    padding: var(--text-padding);
 }
 
 .benefit-img {

@@ -17,7 +17,7 @@
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
     "intro-container intro-container"
-    "benefits benefit-img"
+    "benefits benefits"
     "specifications specification-img"
     "presentation presentation";
     background-color: var(--main-light-color);
