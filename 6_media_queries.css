@@ -1,11 +1,27 @@
+
 /*smart phones*/
+
+@media screen and (min-width: 375px) {
+    .video {
+        height: 38vh;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .video {
+        height: 45vh;
+        width: 100vw;
+    }
+}
+
+
 @media  screen and (min-width: 568px) {
     .main-page {
         grid-template-columns: 3fr 3fr;
     }
 
-    .hero-image {
-        background-image: url(/images/hero_breast_2.png);
+    .hero-image {        
         height: 80vh;
     }
     
@@ -19,9 +35,9 @@
         width: auto;
     }
 
-    video {
-        height: 65vh;
-        width: auto;
+    .video {
+        height: 70vh;
+        width: 100vw;
     }
     
     .recommendation-image {
@@ -40,6 +56,12 @@
         font-size: 1.4em;
     }
 
+    .hero-image {
+        height: 85vh;
+        width: 100vw;
+    }
+    
+
 }
 
 @media screen and (min-width: 736px) {
@@ -53,8 +75,19 @@
 }
 
 
-/*iPad media query*/
+/*iPad mini and iPad media query*/
 @media  screen and (min-width: 768px) {
+
+    .menu-logo-line {
+        height: 130px;
+        grid-template-columns: 100px calc(98vw - 200px) 100px;
+    }
+
+    .logo-container {
+        height: 70px;
+        width: 70px;
+    }
+
 
     .main-title {
         font-size: 4rem;
@@ -74,9 +107,6 @@
         margin: 4px 0;
     }
 
-    .menu-logo-line {
-        grid-template-columns: 100px calc(98vw - 200px) 100px;
-    }
 
     .menu-titles {
         font-size: 2rem;
@@ -101,7 +131,79 @@
         padding: 20px;
     }
     
-    /*img {
-        max-height: 80vh;
-    }*/
+    .hero-image {        
+        height: 60vh;
+        
+    }
+
+}
+
+/*iPad pro media query*/
+
+@media  screen and (min-width: 1024px){
+    .menu-logo-line {
+        height: 150px;
+        grid-template-columns: 100px calc(98vw - 200px) 100px;
+    }
+
+    .logo-container {
+        height: 90px;
+        width: 90px;
+    }
+
+
+    .main-title {
+        font-size: 6rem;
+    }
+    
+    .menu-cont {
+        width: 90px;
+        height: 90px;
+        margin: 15px 15px 15px 30px;
+    }
+
+
+    .line1, .line2, .line3 {		
+        position: relative;    
+        width: 55px;
+        height: 5px;
+        margin: 4px 0;
+    }
+
+
+    .menu-titles {
+        font-size: 2.5rem;
+        top: 130px;
+    }
+
+    #menu_checkbox:checked + label .line1 {
+        top: 7x;
+        transform-origin: 50.5% 50%;
+    }
+
+    #menu_checkbox:checked + label .line3 {
+        bottom: 7px;
+        transform-origin: 45.5% 50%;
+    }
+
+    .benefits, .specifications, .presentation, .recommendation, .footer {
+        font-size: 2rem;
+    }
+
+    ul {
+        padding: 20px;
+    }
+    
+    .hero-image {        
+        height: 60vh;
+        
+    }
+
+    .video {
+        height: 75vh;
+        width: 100vw;
+    }
+
+    
+    
 }
