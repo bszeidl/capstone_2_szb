@@ -269,8 +269,96 @@
     .video {
         height: 75vh;
         width: 100vw;
+    }    
+    
+}
+
+/*Large display media query above 1920px*/
+
+@media screen and (min-width: 1920px) {
+
+    .menu-logo-line {
+        height: 140px;
+        grid-template-columns: 100px calc(98vw - 200px) 100px;
     }
+
+    .logo-container {
+        height: 90px;
+        width: 90px;
+    }
+
+
+    .main-title {
+        font-size: 6rem;
+    }
+    
+    .menu-cont {
+        width: 80px;
+        height: 80px;
+        margin: 15px 15px 15px 30px;
+    }
+
+
+    .line1, .line2, .line3 {		
+        position: relative;    
+        width: 55px;
+        height: 5px;
+        margin: 4px 0;
+    }
+
+
+    .menu-titles {
+        font-size: 2.5rem;
+        top: 120px;
+    }
+
+    #menu_checkbox:checked + label .line1 {
+        top: 7x;
+        transform-origin: 50.5% 50%;
+    }
+
+    #menu_checkbox:checked + label .line3 {
+        bottom: 7px;
+        transform-origin: 45.5% 50%;
+    }
+
+    .hero-image {        
+        height: 100vh;
+        
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    li {
+        font-size: 1.1em;;
+    }
+
+    ul {
+        padding: 20px;
+    }
+
+    .footer {
+        font-size: 1.1em;
+    }
+
+    .benefits, .specifications, .presentation, .recommendation, .footer {
+        font-size: 2rem;
+    }
+
 
     
     
+    
+
+    .video {
+        height: 75vh;
+        width: 100vw;
+    }    
+
 }
