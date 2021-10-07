@@ -309,7 +309,7 @@
 
     .menu-titles {
         font-size: 2.5rem;
-        top: 120px;
+        top: 130px;
     }
 
     #menu_checkbox:checked + label .line1 {
@@ -332,7 +332,8 @@
     }
 
     p {
-        font-size: 1.1em;
+        font-size: .8em;
+        margin: 15px 0;
     }
 
     li {
@@ -343,16 +344,13 @@
         padding: 20px;
     }
 
-    .footer {
-        font-size: 1.1em;
+    div .footer {
+        font-size: .9em;
     }
 
     .benefits, .specifications, .presentation, .recommendation, .footer {
         font-size: 2rem;
-    }
-
-
-    
+    }   
     
     
 
