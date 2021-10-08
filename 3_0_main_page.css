@@ -18,7 +18,7 @@
     grid-template-areas: 
     "intro-container intro-container"
     "benefits benefits"
-    "specifications specification-img"
+    "specifications specifications"
     "presentation presentation";
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
