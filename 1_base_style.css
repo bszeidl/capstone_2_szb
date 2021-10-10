@@ -42,6 +42,10 @@ ul {
     list-style-type: circle;
 }
 
+p {
+    margin-bottom: var(--text-padding);
+}
+
 /*To synchronize the font size of button and li items:*/
 .benefit-and-specs-list {
     font-size: 1rem;;

@@ -1,7 +1,11 @@
 
-/*smart phones*/
+/*smart phones portrait direction*/
 
 @media screen and (min-width: 375px) {
+    .specification-photo {
+        height: 150px;
+    }
+    
     .video {
         height: 38vh;
         width: 100vw;
@@ -16,6 +20,8 @@
     }
 }
 
+/*smart phones landscape direction*/
+
 
 @media  screen and (min-width: 568px) {
     .main-page {
@@ -26,13 +32,8 @@
         height: 80vh;
     }
     
-    .benefit-photo {
-        height: 80vh;
-        width: auto;
-    }
-    
     .specification-photo {
-        height: 80vh;
+        height: 110px;
         width: auto;
     }
 
@@ -62,6 +63,10 @@
         width: 100vw;
     }
     
+    .specification-photo {
+        height: 130px;
+        width: auto;
+    }
 
 }
 
@@ -124,8 +129,12 @@
         transform-origin: 45.5% 50%;
     }
 
-    .benefits, .specifications, .presentation, .recommendation, .footer {
+    .benefits, .specifications, .presentation, .recommendation {
         font-size: 2rem;
+    }
+
+    .footer {
+        font-size: 1.5rem;
     }
 
     ul {
@@ -136,6 +145,21 @@
         height: 60vh;
         
     }
+
+    .benefit-and-specs-list {
+        font-size: 1.5rem;;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+    
+
+    .specification-photo {
+        height: 300px;
+        width: auto;
+    }
+
 
 }
 
@@ -254,8 +278,24 @@
         transform-origin: 45.5% 50%;
     }
 
-    .benefits, .specifications, .presentation, .recommendation, .footer {
+    .benefits, .specifications, .presentation, .recommendation {
         font-size: 2rem;
+    }
+
+    .specifications p, h4 {
+        font-size: 1.5rem;        
+    }
+
+    .accordion {
+        padding: var(--text-padding) calc(3*var(--text-padding));
+    }
+
+    .panel-wrap {
+        padding: var(--text-padding) calc(2*var(--text-padding));
+    }
+
+    .footer {
+        font-size: 1.2rem;
     }
 
     ul {
@@ -267,11 +307,45 @@
         
     }
 
+    .specification-photo {
+        height: 400px;
+        width: auto;
+    }
+
+
     .video {
         height: 75vh;
         width: 100vw;
     }    
     
+}
+
+@media screen and (min-width: 1280px) {
+    .specification-photo {
+        height: 220px;
+        width: auto;
+    }
+
+    .accordion {
+        padding: var(--text-padding) calc(5*var(--text-padding));
+    }
+
+    .panel-text, .specification-img-wrap {
+        padding: calc(4*var(--text-padding));
+    }
+
+    .panel-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "panel-text specification-img-wrap";
+        /*column-gap: calc(1*var(--text-padding)); */
+        padding: var(--text-padding) 0;
+      }     
+
+
+
 }
 
 /*Large display media query above 1920px*/
@@ -351,9 +425,13 @@
 
     .benefits, .specifications, .presentation, .recommendation, .footer {
         font-size: 2rem;
-    }   
-    
-    
+    } 
+
+    .specification-photo {
+        height: 350px;
+        width: auto;
+    }
+  
 
     .video {
         height: 75vh;
