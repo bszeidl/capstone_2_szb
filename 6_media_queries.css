@@ -6,6 +6,7 @@
         height: 38vh;
         width: 100vw;
     }
+   
 }
 
 @media screen and (min-width: 414px) {
@@ -193,7 +194,7 @@
         font-size: .9em;
     }
 
-    li {
+    .benefit-and-specs-list {
         font-size: .9em;;
     }
 
@@ -336,7 +337,7 @@
         margin: 15px 0;
     }
 
-    li {
+    .benefit-and-specs-list {
         font-size: 1.1em;;
     }
 

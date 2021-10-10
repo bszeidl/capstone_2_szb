@@ -10,13 +10,14 @@
 /*variables*/
 :root {
     --main-dark-color: rgba(0, 150, 190, 1);
-    /*--main-light-color: rgba(230, 240, 100, 1);*/
     --main-light-color: #00ff00;
     --hover-color: rgba(230, 240, 100, 1);
     --secondary-color: #c0c0c0;
     --secondary-font-size: 15px;
     --text-padding: 15px;
     --photo-padding: 5px;
+    --text-shadow: rgb(70, 68, 68) 1px 3px;
+    --box-shadow: rgb(70, 68, 68) 1px 5px;
 }
 
 body {
@@ -25,9 +26,13 @@ body {
     font-family: 'Rokkitt', serif;
 }
 
+button {
+    font-family: 'Rokkitt', serif;
+}
+
 h1 {
     font-family: 'Nova Square', cursive;
-    color: var( --main-light-color);
+    color: var(--main-light-color);
     font-weight: 900;
 }
 
@@ -35,6 +40,11 @@ h1 {
 ul {
     padding: var(--text-padding);
     list-style-type: circle;
+}
+
+/*To synchronize the font size of button and li items:*/
+.benefit-and-specs-list {
+    font-size: 1rem;;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
