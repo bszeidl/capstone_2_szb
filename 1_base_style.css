@@ -10,7 +10,8 @@
 /*variables*/
 :root {
     --main-dark-color: rgba(0, 150, 190, 1);
-    --main-light-color: #00ff00;
+    /*original limegreen: --main-light-color: #00ff00;*/
+    --main-light-color: #00ffff;
     --hover-color: rgba(230, 240, 100, 1);
     --secondary-color: #c0c0c0;
     --secondary-font-size: 15px;
