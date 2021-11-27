@@ -8,8 +8,12 @@
     /*border: 1px black solid;*/
 }
 
-.benefits h3 {
+/*.benefits h2 {
     padding: var(--text-padding);
+}*/
+
+.benefits-list {
+    list-style-type: none;
 }
 
 .benefit-img {

@@ -37,11 +37,29 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    margin: calc(4*var(--text-padding)) 0 var(--text-padding) 0;
+}
+
 
 ul {
     padding: var(--text-padding);
     list-style-type: circle;
 }
+
+
+li {
+    margin-left: 20px;
+}
+
+.nested-list {    
+    padding: 0 0 0 20px;
+}
+
+.nested-list li {
+    font-size: .75em;
+}
+
 
 p {
     margin-bottom: var(--text-padding);
