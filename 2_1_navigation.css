@@ -16,7 +16,9 @@
     grid-area: main-title;
     justify-self: center;
     align-self: center; 
-    font-size: 25px;   
+    font-size: 25px;
+    color: var(--logo-color);
+    text-shadow: var(--text-shadow);   
  }
 
  .logo-container {

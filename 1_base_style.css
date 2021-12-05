@@ -11,13 +11,14 @@
 :root {
     --main-dark-color: rgba(0, 150, 190, 1);
     /*original limegreen: --main-light-color: #00ff00;*/
+    --logo-color: #535252;
     --main-light-color: #00ffff;
     --hover-color: rgba(230, 240, 100, 1);
     --secondary-color: #c0c0c0;
     --secondary-font-size: 15px;
     --text-padding: 15px;
     --photo-padding: 5px;
-    --text-shadow: rgb(70, 68, 68) 1px 3px;
+    --text-shadow: rgb(12, 12, 12) 1px 3px;
     --box-shadow: rgb(70, 68, 68) 1px 5px;
 }
 
@@ -32,9 +33,11 @@ button {
 }
 
 h1 {
-    font-family: 'Nova Square', cursive;
+    /*font-family: 'Nova Square', cursive;*/
+    /*font-family: shuriken-std, sans-serif;*/
+    font-family: 'Black Ops One', cursive;
     color: var(--main-light-color);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 h2 {
