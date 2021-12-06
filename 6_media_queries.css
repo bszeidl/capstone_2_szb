@@ -80,6 +80,19 @@
     }
 }
 
+@media screen and (max-width: 736px) {
+
+    body, .accordion {
+        font-size: 1.1rem;
+    }
+    .nested-list li {
+        font-size: 1em;
+    }
+
+
+    
+}
+
 
 /*iPad mini and iPad media query*/
 @media  screen and (min-width: 768px) {
