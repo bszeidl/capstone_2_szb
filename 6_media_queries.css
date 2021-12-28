@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 375px) {
     .specification-photo {
-        height: 150px;
+        height: 210px;
     }
     
     .video {
@@ -33,7 +33,7 @@
     }
     
     .specification-photo {
-        height: 110px;
+        height: 220px;
         width: auto;
     }
 
@@ -63,10 +63,10 @@
         width: 100vw;
     }
     
-    .specification-photo {
+    /*.specification-photo {
         height: 130px;
         width: auto;
-    }
+    }*/
 
 }
 
@@ -78,6 +78,11 @@
     .main-title {
         font-size: 1.6em;
     }
+
+    .specification-photo {
+        height: 290px;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -87,9 +92,7 @@
     }
     .nested-list li {
         font-size: 1em;
-    }
-
-
+    }   
     
 }
 
@@ -168,10 +171,10 @@
     }
     
 
-    .specification-photo {
+    /*.specification-photo {
         height: 300px;
         width: auto;
-    }
+    }*/
 
 
 }
