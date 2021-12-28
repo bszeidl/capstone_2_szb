@@ -22,7 +22,7 @@
   grid-area: specification-photo;
   background-image: url("images/hero_breast_2.png");
   background-size: cover;
-  height: 120px;
+  height: 110px;
   border-radius: 10px;  
   /*box-shadow: rgb(70, 68, 68) 5px 10px;*/    
 }
@@ -32,7 +32,7 @@
 }
 
 #leg-support-img {
-  background-image: url("images/leg_supportwo_background_320x240.png"); 
+  background-image: url("images/leg_supportwo_background.png"); 
 }
 
 .accordion {

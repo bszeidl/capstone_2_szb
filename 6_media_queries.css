@@ -3,7 +3,8 @@
 
 @media screen and (min-width: 375px) {
     .specification-photo {
-        height: 210px;
+        height: 130px;
+        width: auto;
     }
     
     .video {
@@ -18,9 +19,22 @@
         height: 45vh;
         width: 100vw;
     }
+
+    .specification-photo {
+        height: 150px;
+        width: auto;
+    }
 }
 
-/*smart phones landscape direction*/
+@media screen and (min-width: 540px) {
+    .specification-photo {
+        height: 200px;
+        width: auto;
+    }
+
+}
+
+/*smart phones landscape direction iPhone 5 SE*/
 
 
 @media  screen and (min-width: 568px) {
@@ -49,6 +63,8 @@
 
 }
 
+/* ipHone 6/7/8 */
+
 @media screen and (min-width: 667px) {    
     body {
         font-size: 1.2rem;
@@ -63,12 +79,14 @@
         width: 100vw;
     }
     
-    /*.specification-photo {
-        height: 130px;
+    .specification-photo {
+        height: 270px;
         width: auto;
-    }*/
+    }
 
 }
+
+/* iPhone 6/7/8 Plus */
 
 @media screen and (min-width: 736px) {
     body {
@@ -99,6 +117,11 @@
 
 /*iPad mini and iPad media query*/
 @media  screen and (min-width: 768px) {
+
+    .specification-photo {
+        height: 300px;
+        width: auto;
+    }
 
     .menu-logo-line {
         height: 130px;
@@ -170,18 +193,17 @@
         font-size: 1.5rem;
     }
     
-
-    /*.specification-photo {
-        height: 300px;
-        width: auto;
-    }*/
-
-
 }
 
 /*iPhone X media query and notebook 800*600*/
 
 @media screen and (min-width: 800px) {
+
+    .specification-photo {
+        height: 330px;
+        width: auto;
+    }
+
     .menu-logo-line {
         height: 70px;
     }
@@ -241,14 +263,16 @@
     .footer {
         font-size: 0.9em;
     }
-
-
-
 }
 
-/*iPad pro media query*/
+/*iPad pro portrait media query*/
 
-@media  screen and (min-width: 1024px){
+@media  screen and (min-width: 1024px) {
+
+    .specification-photo {
+        height: 360px;
+        width: auto;
+    }
     .menu-logo-line {
         height: 110px;
         grid-template-columns: 100px calc(98vw - 200px) 100px;
@@ -323,12 +347,6 @@
         
     }
 
-    .specification-photo {
-        height: 400px;
-        width: auto;
-    }
-
-
     .video {
         height: 75vh;
         width: 100vw;
@@ -336,16 +354,20 @@
     
 }
 
+/*19" screen 1280x1024*/
+
 @media screen and (min-width: 1280px) {
+    
+    .specification-photo {
+        height: 200px;
+        width: auto;
+    }
+
     .logo-container {
         width: 110px;
         height: 110px;
-    }
-    
-    .specification-photo {
-        height: 220px;
-        width: auto;
-    }
+    }    
+   
 
     .accordion {
         padding: var(--text-padding) calc(5*var(--text-padding));
@@ -364,9 +386,24 @@
         /*column-gap: calc(1*var(--text-padding)); */
         padding: var(--text-padding) 0;
       }     
+}
 
+/*iPad pro landscape 1366x1024*/
 
+@media screen and (min-width: 1366px) {
+    .specification-photo {
+        height: 240px;
+        width: auto;
+    }
+}
 
+/*14" laptop 1600x900*/
+
+@media screen and (min-width: 1600px) {
+    .specification-photo {
+        height: 260px;
+        width: auto;
+    }
 }
 
 /*Large display media query above 1920px*/
