@@ -35,6 +35,10 @@
   background-image: url("images/leg_supportwo_background.png"); 
 }
 
+#adjustable-angle-img {
+  background-image: url("images/adjustable_angle_1920_1080.png");
+}
+
 .accordion {
     
     background-color: var(--main-dark-color);
