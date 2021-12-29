@@ -22,9 +22,13 @@
   grid-area: specification-photo;
   background-image: url("images/hero_breast_2.png");
   background-size: cover;
-  height: 110px;
+  height: 130px;
   border-radius: 10px;  
   /*box-shadow: rgb(70, 68, 68) 5px 10px;*/    
+}
+
+#adjustable-angle-img {
+  background-image: url("images/adjustable_angle_1920_780.png");
 }
 
 #pc-control {
@@ -35,9 +39,6 @@
   background-image: url("images/leg_supportwo_background.png"); 
 }
 
-#adjustable-angle-img {
-  background-image: url("images/adjustable_angle_1920_1080.png");
-}
 
 .accordion {
     
@@ -95,5 +96,6 @@
     "specification-img-wrap";
     row-gap: calc(1*var(--text-padding));
     padding: var(--text-padding) 0;
+    align-items: center;
   }
 

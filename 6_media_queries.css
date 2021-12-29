@@ -2,10 +2,6 @@
 /*smart phones portrait direction*/
 
 @media screen and (min-width: 375px) {
-    .specification-photo {
-        height: 130px;
-        width: auto;
-    }
     
     .video {
         height: 38vh;
@@ -374,7 +370,7 @@
     }
 
     .panel-text, .specification-img-wrap {
-        padding: calc(4*var(--text-padding));
+        padding: var(--text-padding) calc(2*var(--text-padding));
     }
 
     .panel-wrap {
