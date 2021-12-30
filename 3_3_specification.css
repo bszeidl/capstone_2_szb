@@ -28,8 +28,11 @@
 }
 
 #morefeatures {
-  background-image: url("images/motorikus_kepessegek.svg");
-  
+  background-image: url("images/motorikus_kepessegek.svg");  
+}
+
+#spec-swimmers {
+  background-image: url("images/swim_and_gym_breast_kick.png");  
 }
 
 #adjustable-angle-img {
