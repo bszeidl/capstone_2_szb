@@ -22,9 +22,14 @@
   grid-area: specification-photo;
   background-image: url("images/hero_breast_2.png");
   background-size: cover;
-  height: 130px;
+  height: 100px;
   border-radius: 10px;  
   /*box-shadow: rgb(70, 68, 68) 5px 10px;*/    
+}
+
+#morefeatures {
+  background-image: url("images/motorikus_kepessegek.svg");
+  
 }
 
 #adjustable-angle-img {
