@@ -1,6 +1,6 @@
 .benefits {
     grid-area: benefits;
-    padding: var(--text-padding);
+    padding: 0 var(--text-padding) var(--text-padding) var(--text-padding);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,5 +27,13 @@
     max-height: 89vh;
     width: 130px;
     padding: var(--text-padding);
+}
+
+/*The below code retains the benefit content always below the menu line:*/
+
+#benefit-id {
+    background-color: var(--main-light-color);
+    width: 100vw;
+    height: 100px;
 }
 
