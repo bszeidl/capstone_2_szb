@@ -29,11 +29,7 @@
     padding: var(--text-padding);
 }
 
-/*The below code retains the benefit content always below the menu line:*/
 
-#benefit-id {
-    background-color: var(--main-light-color);
-    width: 100vw;
-    height: 100px;
-}
+
+
 
