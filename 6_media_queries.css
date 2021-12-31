@@ -1,11 +1,28 @@
 
 /*smart phones portrait direction*/
 
+/*Samsung Galaxy fold*/
+
+@media screen and (min-width: 280px) {
+    .main-title {
+        font-size: 1.3rem;
+    }
+}
+
 /*iPhone 5/SE*/
 
 @media screen and (min-width: 320px) {
     .specification-photo {
         height: 110px;
+        width: auto;
+    }
+}
+
+/*Samsung Galaxy*/
+
+@media screen and (min-width: 360px) {
+    .specification-photo {
+        height: 120px;
         width: auto;
     }
 }
@@ -89,7 +106,7 @@
     }
     
     .specification-photo {
-        height: 270px;
+        height: 260px;
         width: auto;
     }
 
@@ -209,7 +226,7 @@
 @media screen and (min-width: 800px) {
 
     .specification-photo {
-        height: 330px;
+        height: 310px;
         width: auto;
     }
 

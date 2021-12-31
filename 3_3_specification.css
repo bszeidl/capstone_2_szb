@@ -27,17 +27,18 @@
   /*box-shadow: rgb(70, 68, 68) 5px 10px;*/    
 }
 
+#adjustable-angle-img {
+  background-image: url("images/adjustable_angle_1920_780.png");
+}
+
 #morefeatures {
-  background-image: url("images/motorikus_kepessegek.png");  
+  background-image: url("images/motorikus_kepessegek_svg.svg");  
 }
 
 #spec-swimmers {
   background-image: url("images/swim_and_gym_breast_kick.png");  
 }
 
-#adjustable-angle-img {
-  background-image: url("images/adjustable_angle_1920_780.png");
-}
 
 #pc-control {
   background-image: url("images/screen_with_frame_1920x780.png"); 
