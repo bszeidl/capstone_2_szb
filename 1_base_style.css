@@ -10,7 +10,6 @@
 /*variables*/
 :root {
     --main-dark-color: rgba(0, 150, 190, 1);
-    /*original limegreen: --main-light-color: #00ff00;*/
     --logo-color: #b9bcbd;
     --main-light-color: #00ffff;
     --hover-color: rgba(230, 240, 100, 1);
@@ -83,11 +82,7 @@ p {
     font-size: 1rem;;
 }
 
-@media screen and (prefers-reduced-motion: no-preference) {
-    html {
-      scroll-behavior: smooth;
-    }
-}
+
 
 
 

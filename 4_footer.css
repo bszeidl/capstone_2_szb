@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: var(--text-padding);
+    padding: var(--text-padding) var(--text-padding) calc(2*var(--text-padding)) var(--text-padding);
 }
 
 .contact {
