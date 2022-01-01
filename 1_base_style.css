@@ -32,7 +32,7 @@ body {
 .place-holder-under-menuline {    
     background-color: var(--main-light-color);
     width: 100vw;
-    height: 100px;
+    height: 30px;
 }
 
 button {

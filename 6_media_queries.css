@@ -7,6 +7,18 @@
     .main-title {
         font-size: 1.3rem;
     }
+
+    .logo-container {
+        margin-right: 20px;
+    }
+
+    .menu a {
+        font-size: .9rem;
+    }
+
+    .menu a:hover {       
+        transform: scale(1.1);        
+    }
 }
 
 /*iPhone 5/SE*/
@@ -16,6 +28,10 @@
         height: 110px;
         width: auto;
     }
+
+    .menu a {
+        font-size: 1rem;
+    }
 }
 
 /*Samsung Galaxy*/
@@ -24,6 +40,10 @@
     .specification-photo {
         height: 120px;
         width: auto;
+    }
+
+    .menu a {
+        font-size: 1.1rem;
     }
 }
 
@@ -60,12 +80,23 @@
 
 }
 
-/*smart phones landscape direction iPhone 5 SE*/
+/*smart phones landscape direction*/
 
+/*iPhone 5 SE*/
 
 @media  screen and (min-width: 568px) {
     .main-page {
         grid-template-columns: 3fr 3fr;
+    }
+
+    .logo-container {
+       
+        height: 70px;
+        width: 70px;
+    }
+
+    .menu a:hover {
+        transform: scale(1.2);
     }
 
     .hero-image {        
@@ -114,6 +145,16 @@
 
 /* iPhone 6/7/8 Plus */
 
+@media screen and (max-width: 736px) {
+
+    body, .accordion {
+        font-size: 1.1rem;
+    }
+    .nested-list li {
+        font-size: 1em;
+    }       
+}
+
 @media screen and (min-width: 736px) {
     body {
         font-size: 1.4rem;
@@ -123,22 +164,21 @@
         font-size: 1.6em;
     }
 
+    .place-holder-under-menuline {    
+        height: 35px;
+    }
+
+    .menu a:hover {       
+        transform: scale(1.2);        
+    }
+
     .specification-photo {
         height: 290px;
         width: auto;
     }
 }
 
-@media screen and (max-width: 736px) {
 
-    body, .accordion {
-        font-size: 1.1rem;
-    }
-    .nested-list li {
-        font-size: 1em;
-    }   
-    
-}
 
 
 /*iPad mini and iPad media query*/
@@ -154,9 +194,11 @@
         grid-template-columns: 100px calc(98vw - 200px) 100px;
     }
 
+  
     .logo-container {
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
+        margin-right: 30px;
     }
 
 
@@ -169,7 +211,18 @@
         height: 80px;
         margin: 15px;
     }
+    
+    .menu-titles {
+        top: 110px;
+    }
 
+    .menu a {
+        font-size: 1.75rem;
+    }
+
+    .place-holder-under-menuline {    
+        height: 100px;
+    }
 
     .line1, .line2, .line3 {		
         position: relative;    
@@ -179,10 +232,7 @@
     }
 
 
-    .menu-titles {
-        font-size: 2rem;
-        top: 110px;
-    }
+  
 
     #menu_checkbox:checked + label .line1 {
         top: 7x;
@@ -231,18 +281,22 @@
     }
 
     .menu-logo-line {
-        height: 70px;
+        height: 90px;
     }
 
     .logo-container {
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .menu-titles {
+        top: 90px;
     }
 
 
-    .main-title {
+    /*.main-title {
         font-size: 2.5rem;
-    }
+    }*/
     
     .menu-cont {
         width: 50px;
@@ -256,13 +310,7 @@
         width: 30px;
         height: 3px;
         margin: 4px 0;
-    }
-
-
-    .menu-titles {
-        font-size: 1.5rem;
-        top: 60px;
-    }
+    } 
 
     .hero-image {        
         height: 85vh;
@@ -305,8 +353,9 @@
     }
 
     .logo-container {
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
+        margin-right: 40px;
     }
 
 
@@ -389,10 +438,22 @@
         width: auto;
     }
 
-    .logo-container {
-        width: 110px;
+    .place-holder-under-menuline {
         height: 110px;
-    }    
+    }
+
+    .menu-logo-line {
+        height: 120px;
+    }
+
+    .logo-container {
+        width: 130px;
+        height: 130px;
+    }
+
+    .menu-titles {
+        top: 110px;
+    }
    
 
     .accordion {
@@ -442,8 +503,8 @@
     }
 
     .logo-container {
-        width: 130px;
-        height: 130px;
+        width: 140px;
+        height: 140px;
     }
 
 
@@ -457,19 +518,20 @@
         margin: 15px 15px 15px 30px;
     }
 
+    .menu-titles {
+        top: 120px;
+    }
+
+    .place-holder-under-menuline {
+        height: 120px;
+    }
 
     .line1, .line2, .line3 {		
         position: relative;    
         width: 55px;
         height: 5px;
         margin: 4px 0;
-    }
-
-
-    .menu-titles {
-        font-size: 2.5rem;
-        top: 130px;
-    }
+    }    
 
     #menu_checkbox:checked + label .line1 {
         top: 7x;
