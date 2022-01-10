@@ -28,7 +28,6 @@
     grid-area: logo-container;
     width: 60px;
     height: 60px;
-    /*border: 1px solid black;*/
     justify-self: center;
     align-self: center; 
     text-align: center;
@@ -73,9 +72,7 @@
     justify-self: center;
     align-self: center;
     column-gap: 5px;
-    /*row-gap: 5px;*/
     background-color: var(--main-dark-color);
-    /*border: 1px solid black;*/
  }
 
 
@@ -91,11 +88,8 @@
     grid-template-areas:
     "menu-benefit menu-specification menu-workout menu-contact";
     column-gap: 5px;
-    /*row-gap: 5px;*/
     display: none;
-    background-color: var(--main-dark-color);
-    /*border: 1px solid black; */
-    
+    background-color: var(--main-dark-color);    
  }
 
  .navbar {   
@@ -106,9 +100,7 @@
      "menu-logo-line menu-logo-line menu-logo-line menu-logo-line"
      "menu-titles menu-titles menu-titles menu-titles";
      column-gap: 5px;
-     /*row-gap: 5px;*/
      background-color: var(--main-dark-color);
-     /*border: 1px solid black;*/
 }
 
 .menu a {

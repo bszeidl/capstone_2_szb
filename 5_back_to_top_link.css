@@ -27,8 +27,7 @@
     top: calc(100vh - 4rem); 
     width: 25px;
     height: 25px;
-    pointer-events: all;
-      
+    pointer-events: all;      
 }
 
 .back-to-top-link:hover {
@@ -47,8 +46,6 @@
 
 /*tooltip*/
 
-
-
 .tooltip {
     display: inline-block;
 }
@@ -59,7 +56,6 @@
     color: var(--secondary-color);
     text-align: center;
     border-radius: 6px;
-    /*padding: 5px 0;*/
   
     /* Position the tooltip */
     position: absolute;

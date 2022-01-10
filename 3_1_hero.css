@@ -1,6 +1,5 @@
 .intro-container{
     grid-area: intro-container;
-    /*border: 1px black solid;*/
     display: grid;
     justify-content: center;
     

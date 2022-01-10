@@ -1,12 +1,9 @@
 .presentation {
     grid-area: presentation;
-    /*border: 1px black solid;*/
-    /*padding: var(--text-padding);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .presentation h3 {
@@ -17,16 +14,9 @@
 
 video {
     width: 100%;
-    /*border: 1px solid black;*/
 }
 
 .video {
     height: 35vh;
     width: 100vw;    
 }
-
-
-/*video[poster] {
-    height: 70vh;
-}*/
-
