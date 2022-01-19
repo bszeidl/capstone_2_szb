@@ -30,7 +30,7 @@ body {
 /*The below code retains the benefit content always below the menu line:*/
 .place-holder-under-menuline {    
     background-color: var(--main-light-color);
-    width: 100vw;
+    width: 98vw;
     height: 30px;
 }
 

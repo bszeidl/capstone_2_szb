@@ -22,6 +22,7 @@
     "presentation presentation";
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
+    width: 100vw;
 }
 
 
